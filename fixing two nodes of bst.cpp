@@ -1,4 +1,5 @@
   void solve(Node* root,vector<Node*> &pts, Node **prev){
+    //code here
       if(root==NULL) return;
       solve(root->left,pts,prev);
       if(*prev!=NULL&&(*prev)->data>root->data){
